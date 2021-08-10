@@ -13,7 +13,7 @@ cp alacrittyconfig/alacritty.yml ~/.config/alacritty.yml
 
 I use alacritty with fish shell, tmux and neovim
 so there is some configurations to use those .
-in case you try this config in your environment, you should fix some codes.
+In case you want to try this config file, you should fix some codes.
 
 ### line 11
 program : shell what you use
