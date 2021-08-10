@@ -1,5 +1,5 @@
 # alacrittyconfig
-alacritty config. It also serves as a backup, but I hope it helps someone.
+alacritty config. I hope it helps someone.
 
 ## usage 
 
