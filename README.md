@@ -1,6 +1,9 @@
 # alacrittyconfig
 alacritty config. I hope it helps someone.
 
+![Screenshot 2021-08-10 at 22 41 02](https://user-images.githubusercontent.com/69175188/128877619-85ab9071-a24e-4401-ac0e-74d4424843b6.png)
+
+
 ## usage 
 
 copy this config file into your alacritty config file.
