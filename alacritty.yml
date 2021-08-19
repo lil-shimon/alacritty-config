@@ -21,8 +21,12 @@ font:
   normal:
     # normal font settings
     #
-    family: 'DroidSansMono Nerd Font'
+    family: "DroidSansMono Nerd Font"
     style: Book
+    # family: 'agave Nerd Font Mono'
+    # style: r
+    # family: 'VictorMono Nerd Font'
+    # style: Light Italic
   bold:
     # bold font settings
     #
@@ -66,8 +70,7 @@ background_opacity: 0.90
 ## colors:
 ##   # Default colors
 ##   # dark_navy #14233A
-##   primary:
-##     background: '#10100E'
+##   primary: #     background: '#10100E'
 ##     foreground: '#C6C6C4'
 
 ##   # Normal colors
@@ -92,30 +95,30 @@ background_opacity: 0.90
 ##     cyan:    '#00CCCC'
 ##     white:   '#FFFAFA'
 ##
-## Colors (Oceanic Next)
-colors:
+# ## Colors (Oceanic Next)
+# colors:
   # Default colors
-  primary:
-    # dark navy gray
-    # background: '#1b2b34'
-    background: '#1b2b34'
-    foreground: '#d8dee9'
+  # primary:
+  #   # dark navy gray
+  #   # background: '#1b2b34'
+  #   background: '#1b2b34'
+  #   foreground: '#d8dee9'
 
-  # Colors the cursor will use if `custom_cursor_colors` is true
-  cursor:
-    text: '#1b2b34'
-    cursor: '#ffffff'
+  # # Colors the cursor will use if `custom_cursor_colors` is true
+  # cursor:
+  #   text: '#1b2b34'
+  #   cursor: '#ffffff'
 
-  # Normal colors
-  normal:
-    black:   '#343d46'
-    red:     '#EC5f67'
-    green:   '#99C794'
-    yellow:  '#FAC863'
-    blue:    '#6699cc'
-    magenta: '#c594c5'
-    cyan:    '#5fb3b3'
-    white:   '#d8dee9'
+  # # Normal colors
+  # normal:
+  #   black:   '#343d46'
+  #   red:     '#EC5f67'
+  #   green:   '#99C794'
+  #   yellow:  '#FAC863'
+  #   blue:    '#6699cc'
+  #   magenta: '#c594c5'
+  #   cyan:    '#5fb3b3'
+  #   white:   '#d8dee9'
 
 #  # Bright colors
 #  bright:
@@ -213,7 +216,58 @@ colors:
 #     blue: '#5CCFE6'
 #     magenta: '#FFEE99'
 #     cyan: '#95E6CB'
+#
 #     white: '#686868'
+
+colors:
+  primary:
+    background: '#2e3440'
+    foreground: '#d8dee9'
+    dim_foreground: '#a5abb6'
+  cursor:
+    text: '#2e3440'
+    cursor: '#d8dee9'
+  vi_mode_cursor:
+    text: '#2e3440'
+    cursor: '#d8dee9'
+  selection:
+    text: CellForeground
+    background: '#4c566a'
+  search:
+    matches:
+      foreground: CellBackground
+      background: '#88c0d0'
+    bar:
+      background: '#434c5e'
+      foreground: '#d8dee9'
+  normal:
+    black: '#3b4252'
+    red: '#bf616a'
+    green: '#a3be8c'
+    yellow: '#ebcb8b'
+    blue: '#81a1c1'
+    magenta: '#b48ead'
+    cyan: '#88c0d0'
+    white: '#e5e9f0'
+  bright:
+    black: '#4c566a'
+    red: '#bf616a'
+    green: '#a3be8c'
+    yellow: '#ebcb8b'
+    blue: '#81a1c1'
+    magenta: '#b48ead'
+    cyan: '#8fbcbb'
+    white: '#eceff4'
+  dim:
+    black: '#373e4d'
+    red: '#94545d'
+    green: '#809575'
+    yellow: '#b29e75'
+    blue: '#68809a'
+    magenta: '#8c738c'
+    cyan: '#6d96a5'
+    white: '#aeb3bb'
+
 
 
 # for nvim and tmux
